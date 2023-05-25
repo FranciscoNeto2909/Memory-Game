@@ -1,0 +1,47 @@
+.game{
+    padding: 0 24px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.game-info{
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+}
+
+.game-nums{
+    display: block;
+    font-size: 32px;
+}
+
+.game-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.game-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.game-button{
+    padding: 5px 10px;
+}
+
+.game-win{
+    height: 100px;
+    width: 500px;
+    border-radius: 6px;
+    color: #1b0101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    background-color: rgba(0, 255, 255, 0.555);
+}

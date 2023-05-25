@@ -1,0 +1,40 @@
+.game-card,
+.game-card--oppened,
+.game-card--permanentOppened {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 6px #0000006e;
+    cursor: pointer;
+    background-color: #f00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-card--oppened {
+    background-color: #00f;
+}
+.game-card--permanentOppened{
+    background-color: #0f0;
+}
+
+.game-card-img {
+    height: 80px;
+    width: 80px;
+}
+
+/* @keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(170deg);
+    }
+} */
